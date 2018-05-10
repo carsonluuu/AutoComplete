@@ -1,5 +1,5 @@
 # AutoComplete Based On Hadoop and MAMP
-*TBD*
+*The project is divided into two parts. First of all, after setting up the development enviroment, we use hadoop offline create the database for N-gram model output. Sencodly, we deploy online MAMP server to display the result online*
 
 Enviroment
 -----
@@ -93,15 +93,13 @@ $ GRANT ALL ON *.* to 'root'@'id_address' IDENTIFIED BY 'your-password'; //enabl
 $ FLUSH PRIVILEGES;
 ```
 ```
-Communication links failure
-```
-```
-Check port and IP
-```
-```
 root use no PRIVILEGES
 ```
 ```mysql
 $ GRANT ALL ON *.* to 'root'@'ip_address' IDENTIFIED BY 'your-password'; //enable remote data transfer
 $ GRANT ALL PRIVILEGES ON *.* TO 'root'@'ip_address' WITH GRANT OPTION;
 ```
+```
+Communication links failure --> Check port and IP
+```
+
