@@ -84,3 +84,24 @@ $ select * from output limit 10 ;
 - Restart server
 - Go to http://localhost/autocomplete/
 8. Problems
+```
+INFO mapreduce.Job: Task Id : attempt_1474070831522_0002_r_000000_1, Status : FAILED
+Error: java.io.IOException: null, message from server: "Host 'x.x.x.x' is not allowed to connect to this MySQL server"
+```
+```mysql
+$ GRANT ALL ON *.* to 'root'@'id_address' IDENTIFIED BY 'your-password'; //enable remote data transfer
+$ FLUSH PRIVILEGES;
+```
+```
+Communication links failure
+```
+```
+Check port and IP
+```
+```
+root use no PRIVILEGES
+```
+```mysql
+$ GRANT ALL ON *.* to 'root'@'ip_address' IDENTIFIED BY 'your-password'; //enable remote data transfer
+$ GRANT ALL PRIVILEGES ON *.* TO 'root'@'ip_address' WITH GRANT OPTION;
+```
