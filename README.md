@@ -83,7 +83,9 @@ $ select * from output limit 10 ;
 - Edit Autocomplete/ajax_refresh.php to change port number and password
 - Restart server
 - Go to http://localhost/autocomplete/
-8. Problems
+
+Problems
+---------------
 ```
 INFO mapreduce.Job: Task Id : attempt_1474070831522_0002_r_000000_1, Status : FAILED
 Error: java.io.IOException: null, message from server: "Host 'x.x.x.x' is not allowed to connect to this MySQL server"
