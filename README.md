@@ -105,3 +105,6 @@ $ GRANT ALL PRIVILEGES ON *.* TO 'root'@'ip_address' WITH GRANT OPTION;
 Communication links failure --> Check port and IP
 ```
 
+Extension
+-----------
+We can use Trie to speed up
