@@ -84,6 +84,9 @@ $ select * from output limit 10 ;
 - Restart server
 - Go to http://localhost/autocomplete/
 
+8. Web UI
+- Now searching will give you help with autocompleting
+
 Problems
 ---------------
 ```
