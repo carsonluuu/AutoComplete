@@ -111,3 +111,12 @@ Communication links failure --> Check port and IP
 Extension
 -----------
 We can use Trie to speed up
+A Trie is a special data structure used to store strings that can be visualized like a tree. It consists of nodes and edges. Each node consists of at max 26 children and edges connect each parent node to its children. These 26 pointers are nothing but pointers for each of the 26 letters of the English alphabet A separate edge is maintained for every edge.
+
+Strings are stored in a top to bottom manner on the basis of their prefix in a trie. All prefixes of length 1 are stored at until level 1, all prefixes of length 2 are sorted at until level 2 and so on.
+
+A Trie data structure is very commonly used for representing the words stored in a dictionary. Each level represents one character of the word being formed. A word available in the dictionary can be read off from the Trie by starting from the root and going till the leaf.
+
+By doing a small modification to this structure, we can also include an entry, timestimes, for the number of times the current word has been previously typed. This entry can be stored in the leaf node corresponding to the particular word.
+
+Now, for implementing the AutoComplete function, we need to consider each character of the every word given in sentencessentences array, and add an entry corresponding to each such character at one level of the trie. At the leaf node of every word, we can update the timestimes section of the node with the corresponding number of times this word has been typed.
