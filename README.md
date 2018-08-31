@@ -1,4 +1,5 @@
 # AutoComplete Based On Hadoop and MAMP
+
 *The project is divided into two parts. First of all, after setting up the development enviroment, we use hadoop offline create the database for N-gram model output. Sencodly, we deploy online MAMP server to display the result online*
 
 Enviroment
