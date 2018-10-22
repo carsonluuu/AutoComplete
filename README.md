@@ -4,7 +4,7 @@
 
 Enviroment
 -----
-1. You will need Docker(For Mac): https://docs.docker.com/docker-for-mac/
+1. You will need Docker(For Mac) https://docs.docker.com/docker-for-mac/
 ```Shell
 $ mkdir bigdata-class2
 $ cd bigdata-class2
